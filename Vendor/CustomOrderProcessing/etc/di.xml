@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Vendor\CustomOrderProcessing\Api\UpdateOrderStatusManagementInterface" type="Vendor\CustomOrderProcessing\Model\UpdateOrderStatusManagement"/>
+	<preference for="Vendor\CustomOrderProcessing\Api\UpdateOrderStatusRepositoryInterface" type="Vendor\CustomOrderProcessing\Model\UpdateOrderStatusRepository"/>
+	<preference for="Vendor\CustomOrderProcessing\Api\Data\UpdateOrderStatusInterface" type="Vendor\CustomOrderProcessing\Model\UpdateOrderStatus"/>
+	<preference for="Vendor\CustomOrderProcessing\Api\Data\UpdateOrderStatusSearchResultsInterface" type="Magento\Framework\Api\SearchResults"/>
+</config>
